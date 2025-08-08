@@ -86,6 +86,12 @@ python train.py --config 1
 OUTPUT/checkpoints/
 ```
 
+If you want to use the pretrained weights, you can find it in:
+
+```
+./ckp
+```
+
 ------
 
 ## 🧪 Testing / Inference
