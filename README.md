@@ -8,7 +8,7 @@ A lightweight, unsupervised MEF framework that combines the global modeling capa
 ## 📖 Introduction
 
 **MambaMEF** is a **lightweight, unsupervised framework** for extreme multi-exposure image fusion.  
-It combines the **global modeling** capability of Transformer architectures with the **computational efficiency** of Mamba layers.  
+It combines the **global modeling** capability of Transformer architectures with the **computational efficiency** of Mamba layers. 
 This framework is designed to handle:
 
 - Large exposure differences
@@ -20,15 +20,15 @@ The system is composed of two parts:
 
 **Visual Results:**
 
-![visual results](visual results.png) 
+![visual results](visual_results.png) 
 
 **Quantitative Results:**
 
-![Quantitative results](quantitative results.png)
+![Quantitative results](quantitative_results.png)
 
 **Speed and Parameters Analysis:**
 
-![test time and parameters.png](test time and parameters.png)
+![test time and parameters.png](test_time_and_parameters.png)
 
 Our method achieves an excellent balance between **inference speed**, **model size**, and **fusion quality**.
  While **DeepFuse** demonstrates small parameter size and high speed due to its use of only convolutional layers, it suffers from limited fusion performance. In contrast, our approach maintains competitive **test time** and **parameter count**, while delivering **superior image fusion results**, achieving an optimal trade-off between efficiency and effectiveness.
@@ -108,28 +108,6 @@ images/fused/MEFB/
 - Model parameters and FLOPs
 - Inference time (total and average per image)
 - Example fusion results
-
-------
-
-## 📊 Example Output
-
-During testing:
-
-```
-===== Model Parameter Statistics =====
-MambaMEF Model:
-  FLOPs: 1.2345G
-  Params: 2.3456M
-IAT Model Params: 1.2345M
-Total Params: 3.5801M
-=========================
-
-===== Processing Time Statistics =====
-Total images processed: 100
-Total time: 2.3456 seconds
-Average per image: 23.4567 ms
-=========================
-```
 
 ------
 
