@@ -18,7 +18,20 @@ The system is composed of two parts:
 - **IAT module**: Performs adaptive exposure correction.
 - **MambaMEF main network**: Conducts image fusion.
 
----
+**Visual Results:**
+
+![visual results](visual results.png) 
+
+**Quantitative Results:**
+
+![Quantitative results](quantitative results.png)
+
+**Speed and Parameters Analysis:**
+
+![test time and parameters.png](test time and parameters.png)
+
+Our method achieves an excellent balance between **inference speed**, **model size**, and **fusion quality**.
+ While **DeepFuse** demonstrates small parameter size and high speed due to its use of only convolutional layers, it suffers from limited fusion performance. In contrast, our approach maintains competitive **test time** and **parameter count**, while delivering **superior image fusion results**, achieving an optimal trade-off between efficiency and effectiveness.
 
 ## ⚙ Requirements
 
@@ -122,4 +135,4 @@ Average per image: 23.4567 ms
 
 ## 📌 Citation
 
-If you use this code in your research, please cite:
+If you use this code in your research, please cite!
