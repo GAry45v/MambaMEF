@@ -14,7 +14,7 @@ This framework is designed to handle:
 
 The system is composed of two parts:
 - **IAT module**: Performs adaptive exposure correction.
-- **MambaMEF main network**: Conducts image fusion.
+- **MambaMEF main network**: Conducts multi-exposure image fusion.
 
 **Framework:**
 
