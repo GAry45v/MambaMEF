@@ -3,8 +3,6 @@
 **MambaMEF: Adaptive Exposure Correction for Extreme Multi-Exposure Image Fusion**  
 A lightweight, unsupervised MEF framework that combines the global modeling capabilities of Transformers with the computational efficiency of Mamba.
 
----
-
 ## 📖 Introduction
 
 **MambaMEF** is a **lightweight, unsupervised framework** for extreme multi-exposure image fusion.  
@@ -17,6 +15,10 @@ This framework is designed to handle:
 The system is composed of two parts:
 - **IAT module**: Performs adaptive exposure correction.
 - **MambaMEF main network**: Conducts image fusion.
+
+**Framework:**
+
+![Framework](framework.png)
 
 **Visual Results:**
 
